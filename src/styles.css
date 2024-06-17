@@ -5,6 +5,7 @@
 }
 nav .navbar-nav li a {
   color: white !important;
+  font-family: "Times New Roman", Times, serif;
 }
 .navbar-toggler {
   border-color: white;
@@ -14,10 +15,22 @@ nav .navbar-nav li a {
 }
 h1 {
   color: var(--primary-color);
+  font-family: "Times New Roman", Times, serif;
 }
 h2 {
   color: var(--primary-color);
+  font-family: "Times New Roman", Times, serif;
 }
 body {
   background-color: var(--secondary-color);
+}
+.grid-text {
+  color: var(--primary-color);
+  font-family: "Times New Roman", Times, serif;
+}
+hr {
+  color: var(--primary-color);
+}
+.homepage-heading {
+  font-size: 80px;
 }
