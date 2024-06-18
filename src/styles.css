@@ -6,6 +6,7 @@
 nav .navbar-nav li a {
   color: white !important;
   font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
 }
 .navbar-toggler {
   border-color: white;
@@ -36,7 +37,9 @@ body {
 }
 hr {
   color: var(--primary-color);
-  margin: 30px;
+  margin-right: 90px;
+  margin-left: 90px;
+  height: 3px;
 }
 .homepage-heading {
   font-size: 80px;
@@ -69,6 +72,7 @@ footer {
   font-size: 15px;
   font-weight: 550;
   color: #6abdab;
+  font-family: "Times New Roman", Times, serif;
 }
 a {
   color: #6abdab;
