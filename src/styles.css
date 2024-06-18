@@ -32,7 +32,7 @@ body {
   background-color: var(--secondary-color);
 }
 .grid-text {
-  color: var(--primary-color);
+  color: var(--secondary-color);
   font-family: "Times New Roman", Times, serif;
 }
 hr {
@@ -68,14 +68,16 @@ footer {
 }
 .lifooter {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 10px;
+  margin-left: 10px;
   font-size: 15px;
   font-weight: 550;
   color: #6abdab;
   font-family: "Times New Roman", Times, serif;
 }
 a {
-  color: #6abdab;
+  color: var(--primary-color);
+  text-align: center;
 }
 .page-container {
   position: relative;
@@ -84,4 +86,17 @@ a {
 
 .content-wrap {
   padding-bottom: 2.5rem;
+}
+.containerhome {
+  background-color: white;
+  border-radius: 4px;
+}
+.joe {
+  color: var(--primary-color);
+}
+.email {
+  text-align: center;
+}
+h3 {
+  font-size: 60px;
 }
