@@ -53,3 +53,31 @@ hr {
 .declutter {
   font-size: 24px;
 }
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+.footer {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+}
+.lifooter {
+  display: inline-block;
+  margin-right: 20px;
+  font-size: 15px;
+  font-weight: 550;
+  color: #6abdab;
+}
+a {
+  color: #6abdab;
+}
+.page-container {
+  position: relative;
+  min-height: 100vh;
+}
+
+.content-wrap {
+  padding-bottom: 2.5rem;
+}
