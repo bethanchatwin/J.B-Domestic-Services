@@ -46,6 +46,7 @@ hr {
 }
 .homepageh2 {
   font-size: 50px;
+  color: var(--secondary-color);
 }
 .abouth1 .contacth1 {
   font-size: 70px;
@@ -89,7 +90,6 @@ a {
 }
 .containerhome {
   background-color: white;
-  border-radius: 4px;
 }
 .joe {
   color: var(--primary-color);
@@ -99,4 +99,12 @@ a {
 }
 h3 {
   font-size: 60px;
+}
+.homepagesection {
+  background-color: white;
+}
+.imgmop {
+  object-fit: cover;
+  height: 300px;
+  width: 300px;
 }
