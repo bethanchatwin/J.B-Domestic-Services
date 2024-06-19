@@ -34,6 +34,13 @@ body {
 .grid-text {
   color: var(--secondary-color);
   font-family: "Times New Roman", Times, serif;
+  margin-top: 0.5vw;
+}
+
+.grid-title {
+  color: var(--secondary-color);
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 12vw;
 }
 hr {
   color: var(--primary-color);
@@ -130,5 +137,16 @@ h3 {
   }
   .reviewsectiontext {
     top: 20vw;
+  }
+  .grid-text {
+    font-size: 5vw;
+    color: var(--secondary-color);
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 0vw;
+  }
+  .grid-title {
+    color: var(--secondary-color);
+    font-family: "Times New Roman", Times, serif;
+    margin-top: 0vw;
   }
 }
