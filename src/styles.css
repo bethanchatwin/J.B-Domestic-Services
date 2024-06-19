@@ -87,9 +87,11 @@ a {
 
 .content-wrap {
   padding-bottom: 2.5rem;
+  width: 100%;
 }
 .containerhome {
   background-color: white;
+  width: 100%;
 }
 .joe {
   color: var(--primary-color);
@@ -103,8 +105,22 @@ h3 {
 .homepagesection {
   background-color: white;
 }
-.imgmop {
-  object-fit: cover;
-  height: 300px;
-  width: 300px;
+.productsimg {
+  width: 100%;
+  height: auto;
+  opacity: 0.2;
+}
+.reviewsectiontext {
+  position: absolute;
+  top: 15vw;
+  left: 0;
+  width: 100%;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 5vw;
+  text-decoration: none;
+}
+.productsimgsec {
+  position: relative;
+  width: 100%;
 }
