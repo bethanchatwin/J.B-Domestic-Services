@@ -150,3 +150,66 @@ h3 {
     margin-top: 0vw;
   }
 }
+.cardContainer {
+  width: 200px;
+  height: 200px;
+  perspective: 1000px;
+}
+.card {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  transition: transform 1000ms;
+  transform-style: preserve-3d;
+  font-family: monospace;
+}
+.card:hover {
+  cursor: pointer;
+  transform: rotateY(180deg);
+}
+.cardFront {
+  text-align: center;
+}
+.cardBack {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  backface-visibility: hidden;
+}
+.cardFront img {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+}
+.cardBack {
+  background-color: var(--primary-color);
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cardText {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 13px;
+  color: black;
+}
+.cardHeading {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+}
+.cardBody {
+  margin-right: 30vw;
+}
+.revMargin {
+  margin-left: 25vw;
+  margin-right: 25vw;
+}
