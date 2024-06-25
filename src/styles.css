@@ -171,7 +171,7 @@ a {
     margin-top: 5px;
     margin-bottom: none;
     line-height: 1px;
-    display: inline;
+    display: inline-flex;
   }
 }
 .cardContainer {
