@@ -170,7 +170,8 @@ a {
   .lifooter1 {
     margin-top: 5px;
     margin-bottom: none;
-    line-height: 0.5px;
+    line-height: 1px;
+    display: inline;
   }
 }
 .cardContainer {
