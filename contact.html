@@ -124,40 +124,46 @@
               href="mailto:joe.bloggs@gmail.com"
               class="email text-center mb-5"
               title="Joe Bloggs email address"
-              ><span class="letter">✉️</span></a
+              ><span class="letter mb-5">✉️</span></a
             >
 
-            <form action="/submit">
-              <label for="name">Enter your name: </label>
-              <input
-                type="text"
-                placeholder="Your name"
-                name="name"
-                id="name"
-                required
-              />
-              <label for="email">Enter your email: </label>
-              <input
-                type="email"
-                placeholder="Your email"
-                name="email"
-                id="email"
-                required
-              />
-              <label for="email">Enter your message: </label>
-              <textarea
-                type="text"
-                placeholder="Your message"
-                name="message"
-                id="message"
-                required
-              ></textarea>
+ 
 
-              <input type="submit" value="Send" />
-            </form>
-          </div>
-        </div>
-      </div>
+      <form>
+  <div class="form-group row mt-5">
+     <div class="col-sm-4"></div>
+    
+      <label for="inputPassword3" class="col-sm-1 col-form-label">Name</label>
+    <div class="col-sm-3">
+      <input type="text" class="form-control" id="inputEmail3" placeholder="Enter your name...">
+    </div>
+  </div>
+  <div class="form-group row">
+     <div class="col-sm-4"></div>
+    
+      <label for="inputPassword3" class="col-sm-1 col-form-label">Email</label>
+    <div class="col-sm-3">
+      <input type="email" class="form-control" id="inputEmail3" placeholder="Enter your email...">
+    </div>
+  </div>
+  <div class="form-group row">
+     <div class="col-sm-4"></div>
+    
+      <label for="inputPassword3" class="col-sm-1 col-form-label">Message</label>
+    <div class="col-sm-3">
+     <textarea class="border-5" placeholder="Enter your message..."></textarea>
+    
+    </div>
+  
+   
+    </div>
+  </div>
+  
+      <button type="submit" class="btn btn-primary formbutton">Sign in</button>
+    </div>
+  </div>
+</form>
+     
       <br />
       <br />
       <footer>

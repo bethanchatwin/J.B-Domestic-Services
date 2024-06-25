@@ -160,6 +160,7 @@ a {
   height: 100%;
   width: 100%;
   position: relative;
+
   transition: transform 1000ms;
   transform-style: preserve-3d;
   font-family: monospace;
@@ -207,10 +208,10 @@ a {
   font-size: 18px;
   color: black;
 }
-.cardBody {
-  margin-right: 30vw;
-}
-.revMargin {
-  margin-left: 25vw;
-  margin-right: 25vw;
+.formbutton {
+  background-color: #6abdab;
+  border-color: #6abdab;
+  color: #141414;
+  font-weight: bold;
+  font-family: "Times New Roman", Times, serif;
 }
