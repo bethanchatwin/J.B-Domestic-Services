@@ -164,8 +164,13 @@ a {
     margin-top: 0vw;
   }
   .hr {
+    margin-top: none;
+    margin-bottom: none;
+  }
+  .lifooter1 {
     margin-top: 5px;
-    margin-bottom: 5px;
+    margin-bottom: none;
+    line-height: 0.5px;
   }
 }
 .cardContainer {
