@@ -163,6 +163,10 @@ a {
     font-family: "Times New Roman", Times, serif;
     margin-top: 0vw;
   }
+  .hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
 }
 .cardContainer {
   width: 240px;
