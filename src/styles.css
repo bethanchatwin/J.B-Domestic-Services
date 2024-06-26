@@ -172,6 +172,10 @@ a {
     line-height: normal;
     display: list-item;
   }
+  .formmobile {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
 }
 .cardContainer {
   width: 240px;
