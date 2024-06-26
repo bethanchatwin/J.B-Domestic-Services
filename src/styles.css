@@ -163,15 +163,14 @@ a {
     font-family: "Times New Roman", Times, serif;
     margin-top: 0vw;
   }
-  .hr {
-    margin-top: none;
-    margin-bottom: none;
+  .hrfooter {
+    display: none;
   }
   .lifooter1 {
-    margin-top: 5px;
+    margin-top: 20pxpx;
     margin-bottom: none;
-    line-height: 1px;
-    display: flexbox;
+    line-height: normal;
+    display: list-item;
   }
 }
 .cardContainer {
