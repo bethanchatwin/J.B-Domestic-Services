@@ -104,6 +104,7 @@ a {
 .page-container {
   position: relative;
   min-height: 100vh;
+  width: 100%;
 }
 
 .content-wrap {
@@ -133,13 +134,14 @@ a {
 }
 .reviewsectiontext {
   position: absolute;
-  top: 15vw;
+  top: 10vw;
   left: 0;
   width: 100%;
   color: white;
   font-family: "Times New Roman", Times, serif;
-  font-size: 5vw;
+  font-size: 100px;
   text-decoration: none;
+  opacity: 70%;
 }
 .productsimgsec {
   position: relative;
@@ -150,7 +152,7 @@ a {
     height: 70vw;
   }
   .reviewsectiontext {
-    top: 20vw;
+    font-size: 50px;
   }
   .grid-text {
     font-size: 5vw;
@@ -186,6 +188,7 @@ a {
   height: 100%;
   width: 100%;
   position: relative;
+  background-color: var(--primary-color);
 
   transition: transform 1000ms;
   transform-style: preserve-3d;
@@ -196,6 +199,17 @@ a {
   transform: rotateY(180deg);
 }
 .cardFront {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  position: absolute;
+  backface-visibility: hidden;
+
+  transform: rotateY(180deg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
 }
 .cardBack {
@@ -204,13 +218,6 @@ a {
   border-radius: 10px;
   position: absolute;
   backface-visibility: hidden;
-}
-.cardFront img {
-  width: 200px;
-  height: 200px;
-  border-radius: 10px;
-}
-.cardBack {
   background-color: var(--primary-color);
   transform: rotateY(180deg);
   display: flex;
@@ -219,13 +226,34 @@ a {
   align-items: center;
   text-align: center;
 }
+
 .cardText {
   margin: 0;
   padding: 0;
   padding-left: 10px;
   padding-right: 10px;
-  font-size: 13px;
-  color: black;
+  font-size: 15px;
+  color: var(--secondary-color);
+}
+
+.cardTextFront {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 20px;
+  color: var(--secondary-color);
+  font-family: "Times New Roman", Times, serif;
+  font-weight: bold;
+}
+
+.star {
+  margin: 0;
+  padding: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  color: var(--secondary-color);
 }
 .cardHeading {
   margin: 0;
